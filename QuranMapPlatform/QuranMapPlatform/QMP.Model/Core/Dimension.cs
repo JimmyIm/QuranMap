@@ -22,6 +22,17 @@ namespace QMP.Model.Core
             {
             }
         }
+
+        public IList<DimensionAssociation> DimensionAssociation
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
     }
 }
 

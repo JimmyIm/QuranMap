@@ -3,7 +3,7 @@
   <Class Name="QMP.Model.Core.Dimension">
     <Position X="3.5" Y="6.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAEAAAAAAAAAAAA=</HashCode>
       <FileName>Core\Dimension.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -14,7 +14,7 @@
         <Point X="4.125" Y="9.25" />
         <Point X="4.125" Y="8.875" />
         <Point X="4.188" Y="8.875" />
-        <Point X="4.188" Y="7.353" />
+        <Point X="4.188" Y="7.546" />
       </Path>
     </AssociationLine>
     <TypeIdentifier>
