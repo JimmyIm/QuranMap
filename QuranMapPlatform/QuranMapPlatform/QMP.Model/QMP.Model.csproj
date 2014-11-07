@@ -43,6 +43,7 @@
     <Compile Include="Core\Fact.cs" />
     <Compile Include="Core\DimensionAssociation.cs" />
     <Compile Include="Core\FactAssociation.cs" />
+    <Compile Include="Core\ValueType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

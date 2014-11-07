@@ -45,6 +45,16 @@ namespace QMP.Model.Core
             {
             }
         }
+        public ValueType ValueType
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
     }
 
 }
