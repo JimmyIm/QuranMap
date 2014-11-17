@@ -9,8 +9,8 @@ namespace QMP.Web.Mvc.CastleWindsor
         public void Install(IWindsorContainer container, IConfigurationStore store)
         {
             container.Register(
-                Classes.FromAssemblyNamed("QMP.Web.Mvc")
-                    .InNamespace("QMP.Web.Mvc.Controllers.Queries", true)
+                Classes.FromAssemblyNamed("QMP.Web")
+                    .InNamespace("QMP.Web.Controllers.Queries", true)
                     .WithService.DefaultInterfaces()
                     .LifestylePerWebRequest());
         }

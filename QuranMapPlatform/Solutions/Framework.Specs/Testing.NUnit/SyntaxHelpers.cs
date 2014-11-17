@@ -4,6 +4,8 @@
     using System.Collections;
 
     using global::NUnit.Framework;
+    using System.Reflection;
+    using System.Collections.Generic;
 
     public delegate void MethodThatThrows();
 
@@ -59,6 +61,11 @@
 
         public static void ShouldBeOfType(this object actual, Type expected)
         {
+            Assert.IsInstanceOf(expected, actual);
+        }
+        public static void ShouldBeOfType<T>(this object actual)
+        {
+            Type expected = typeof(T);
             Assert.IsInstanceOf(expected, actual);
         }
 
@@ -168,5 +175,14 @@
         {
             StringAssert.StartsWith(expected, actual);
         }
+        public static void ShouldContainOnly(this  IEnumerable<PropertyInfo> props, IEnumerable<PropertyInfo> List)
+        {
+            throw new NotImplementedException();
+        }
+        public static void ShouldBeEmpty(this  IEnumerable<PropertyInfo> props)
+        {
+            throw new NotImplementedException();
+        }
+
     }
 }

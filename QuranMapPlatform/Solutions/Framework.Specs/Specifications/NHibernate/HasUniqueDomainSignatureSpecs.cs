@@ -22,7 +22,7 @@ namespace Framework.Specifications.NHibernate
     using global::Framework.Features.Specifications;
     using global::Framework.Data.NHibernate;
     using global::Framework.Data.NHibernate.NHibernateValidator;
-
+    using global::Framework.Testing.NUnit;
     using Machine.Specifications;
 
     using global::Framework.Testing.NUnit.NHibernate;

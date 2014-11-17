@@ -14,7 +14,7 @@ namespace Framework.Specifications.SharpArch.Domain
     using System;
     using System.IO;
     using System.Runtime.Serialization.Formatters.Binary;
-
+    using global::Framework.Testing.NUnit;
     using global::Framework.Core.Domain;
     using Machine.Specifications;
 

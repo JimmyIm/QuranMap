@@ -6,7 +6,7 @@ namespace QMP.Tests
     using CommonServiceLocator.WindsorAdapter;
     using Microsoft.Practices.ServiceLocation;
     using Framework.Core.Domain.PersistenceSupport;
-    using Framework.Core.NHibernate;
+    using Framework.Data.NHibernate;
 
     public class ServiceLocatorInitializer
     {

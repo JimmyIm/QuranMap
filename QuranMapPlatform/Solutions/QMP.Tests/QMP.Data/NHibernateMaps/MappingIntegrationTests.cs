@@ -8,8 +8,8 @@ namespace QMP.Tests.QMP.Data.NHibernateMaps
 
     using NUnit.Framework;
 
-    using Framework.Core.NHibernate;
-    using Framework.Core.Testing.NUnit.NHibernate;
+    using Framework.Data.NHibernate;
+    using Framework.Testing.NUnit.NHibernate;
 
     using global::QMP.Infrastructure.NHibernateMaps;
 
@@ -34,7 +34,7 @@ namespace QMP.Tests.QMP.Data.NHibernateMaps
                 new SimpleSessionStorage(),
                 mappingAssemblies,
                 new AutoPersistenceModelGenerator().Generate(),
-                "../../../../Solutions/QMP.Web.Mvc/NHibernate.config");
+                "../../../../Solutions/QMP.Web/NHibernate.config");
         }
 
         [TearDown]

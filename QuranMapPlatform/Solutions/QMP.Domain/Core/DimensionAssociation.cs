@@ -1,43 +1,29 @@
-﻿using System;
+﻿using Framework.Core.Domain.DomainModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
 namespace QMP.Domain.Core
 {
-    public class DimensionAssociation
+    public class DimensionAssociation : Entity
     {
-        public Dimension Source
+        public virtual Dimension Source
         {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
+            get;
+            set;
         }
 
-        public Dimension Target
+        public virtual Dimension Target
         {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
+            get;
+            set;
         }
 
-        public string Name
+        public virtual string Name
         {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
+            get;
+            set;
         }
     }
 }

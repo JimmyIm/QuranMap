@@ -16,7 +16,8 @@ namespace Framework.Specifications.SharpArch.Domain.DomainModel
 
     using global::Framework.Core.Domain.DomainModel;
     using global::Framework.Testing.NUnit.Helpers;
-
+    using global::Framework.Testing.NUnit;
+    using global::NUnit;
     using Machine.Specifications;
 
 

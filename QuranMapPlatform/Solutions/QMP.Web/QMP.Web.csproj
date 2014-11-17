@@ -277,6 +277,10 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\QMP.mdf" />
+    <Content Include="App_Data\QMP_log.ldf">
+      <DependentUpon>QMP.mdf</DependentUpon>
+    </Content>
     <Content Include="Areas\HelpPage\HelpPage.css" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -386,7 +390,6 @@
     <Content Include="Scripts\jquery-2.1.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
     <Folder Include="Controllers\Queries\" />
     <Folder Include="Controllers\ViewModels\" />
   </ItemGroup>
@@ -411,9 +414,17 @@
       <Project>{136d2192-7a93-45c7-9918-140a2d3af8c6}</Project>
       <Name>Framework.Web</Name>
     </ProjectReference>
+    <ProjectReference Include="..\QMP.Domain\QMP.Domain.csproj">
+      <Project>{8def56cd-601e-443c-9dce-c4ec54c0b6a6}</Project>
+      <Name>QMP.Domain</Name>
+    </ProjectReference>
     <ProjectReference Include="..\QMP.Infrastructure\QMP.Infrastructure.csproj">
       <Project>{9544d94b-9b6e-4b61-8a09-88382205bf86}</Project>
       <Name>QMP.Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QMP.Tasks\QMP.Tasks.csproj">
+      <Project>{c9aac14b-e695-4508-83b7-acb8fc5a7284}</Project>
+      <Name>QMP.Tasks</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

@@ -15,9 +15,10 @@ namespace Framework.Specifications.SharpArch.Domain
     using System.Diagnostics;
 
     using global::Framework.Core.Domain;
-
+    using global::Framework.Testing.NUnit;
+    using global::NUnit;
     using Machine.Specifications;
-
+    
     using Rhino.Mocks;
 
     public class design_by_contract_specs
