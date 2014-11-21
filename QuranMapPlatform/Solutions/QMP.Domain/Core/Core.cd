@@ -1,24 +1,29 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="QMP.Domain.Core.Dimension">
-    <Position X="1.25" Y="3.25" Width="2" />
+    <Position X="1.5" Y="3.25" Width="2" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAEAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAEAAEAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Core\Dimension.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="QMP.Domain.Core.DimensionAssociation">
     <Position X="1.5" Y="0.75" Width="1.75" />
-    <AssociationLine Name="Source" Type="QMP.Domain.Core.Dimension" FixedFromPoint="true">
+    <AssociationLine Name="Source" Type="QMP.Domain.Core.Dimension" FixedFromPoint="true" FixedToPoint="true">
       <Path>
-        <Point X="1.812" Y="1.983" />
-        <Point X="1.812" Y="3.25" />
+        <Point X="1.5" Y="1.875" />
+        <Point X="1.125" Y="1.875" />
+        <Point X="1.125" Y="4.062" />
+        <Point X="1.5" Y="4.062" />
       </Path>
     </AssociationLine>
-    <AssociationLine Name="Target" Type="QMP.Domain.Core.Dimension" FixedFromPoint="true">
+    <AssociationLine Name="Target" Type="QMP.Domain.Core.Dimension" FixedFromPoint="true" FixedToPoint="true">
       <Path>
-        <Point X="2.938" Y="1.983" />
-        <Point X="2.938" Y="3.25" />
+        <Point X="3.25" Y="1.938" />
+        <Point X="3.875" Y="1.938" />
+        <Point X="3.875" Y="4.059" />
+        <Point X="3.5" Y="4.059" />
       </Path>
     </AssociationLine>
     <TypeIdentifier>
@@ -29,30 +34,35 @@
       <Property Name="Source" />
       <Property Name="Target" />
     </ShowAsAssociation>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="QMP.Domain.Core.Fact">
     <Position X="6" Y="3.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAEAAAAAAAAAAAQAAAABAAAAAAAgAAAAEAA=</HashCode>
+      <HashCode>AAAAAAAAAAEAAEAAAAAAAAQAAAAAQAAAAAAgAAAAEAA=</HashCode>
       <FileName>Core\Fact.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="DimensionType" />
       <Property Name="ValueType" />
     </ShowAsAssociation>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="QMP.Domain.Core.FactAssociation">
     <Position X="6" Y="0.75" Width="1.5" />
-    <AssociationLine Name="Source" Type="QMP.Domain.Core.Fact" FixedFromPoint="true">
+    <AssociationLine Name="Source" Type="QMP.Domain.Core.Fact" FixedFromPoint="true" FixedToPoint="true">
       <Path>
-        <Point X="6.312" Y="1.983" />
-        <Point X="6.312" Y="3.25" />
+        <Point X="6" Y="1.938" />
+        <Point X="5.625" Y="1.938" />
+        <Point X="5.625" Y="4.251" />
+        <Point X="6" Y="4.251" />
       </Path>
     </AssociationLine>
-    <AssociationLine Name="Target" Type="QMP.Domain.Core.Fact" FixedFromPoint="true">
+    <AssociationLine Name="Target" Type="QMP.Domain.Core.Fact" FixedFromPoint="true" FixedToPoint="true">
       <Path>
-        <Point X="7.25" Y="1.983" />
-        <Point X="7.25" Y="3.25" />
+        <Point X="7.5" Y="1.938" />
+        <Point X="7.875" Y="1.938" />
+        <Point X="7.875" Y="4.25" />
+        <Point X="7.5" Y="4.25" />
       </Path>
     </AssociationLine>
     <TypeIdentifier>
@@ -60,13 +70,14 @@
       <FileName>Core\FactAssociation.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
+      <Property Name="RelationType" />
       <Property Name="Source" />
       <Property Name="Target" />
-      <Property Name="RelationType" />
     </ShowAsAssociation>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="QMP.Domain.Core.ValueType">
-    <Position X="8.75" Y="3.25" Width="1.5" />
+    <Position X="9.75" Y="2.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Core\ValueType.cs</FileName>
