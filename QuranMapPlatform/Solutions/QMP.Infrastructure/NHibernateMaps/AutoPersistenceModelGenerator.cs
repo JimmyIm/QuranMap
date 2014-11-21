@@ -40,6 +40,7 @@ namespace QMP.Infrastructure.NHibernateMaps
                        c.Add<CustomForeignKeyConvention>();
                        c.Add<HasManyConvention>();
                        c.Add<TableNameConvention>();
+                       c.Add<ReferenceConvention>();
                    };
         }
     }

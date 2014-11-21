@@ -11,15 +11,20 @@ using System.Linq;
 using System.Text;
 namespace QMP.Domain.Core
 {
-    public class Dimension:Entity
-    {
+    public class Dimension:Entity, IHasAssociation<DimensionAssociation>
+    {    
         public virtual string Name
         {
             get;
             set;
         }
 
-        public virtual IList<DimensionAssociation> DimensionAssociation
+        public virtual IList<DimensionAssociation> SubAssociations
+        {
+            get;
+            set;
+        }
+        public virtual IList<DimensionAssociation> BaseAssociations
         {
             get;
             set;

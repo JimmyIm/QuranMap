@@ -11,7 +11,7 @@ using System.Linq;
 using System.Text;
 namespace QMP.Domain.Core
 {
-    public class Fact : Entity
+    public class Fact : Entity, IHasAssociation<FactAssociation>
     {
 
         public virtual Dimension Dimension
@@ -32,6 +32,16 @@ namespace QMP.Domain.Core
             set;
         }
         public virtual ValueType ValueType
+        {
+            get;
+            set;
+        }
+        public virtual IList<FactAssociation> SubAssociations
+        {
+            get;
+            set;
+        }
+        public virtual IList<FactAssociation> BaseAssociations
         {
             get;
             set;

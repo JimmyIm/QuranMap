@@ -108,11 +108,15 @@
       <Link>Properties\CommonAssemblyInfo.cs</Link>
     </Compile>
     <Compile Include="NHibernateMaps\AutomappingConfiguration.cs" />
+    <Compile Include="NHibernateMaps\AutoMappingOverride\MyEntity1MappingOverride.cs" />
     <Compile Include="NHibernateMaps\Conventions\CustomForeignKeyConvention.cs" />
     <Compile Include="NHibernateMaps\Conventions\HasManyConvention.cs" />
     <Compile Include="NHibernateMaps\Conventions\PrimaryKeyConvention.cs" />
+    <Compile Include="NHibernateMaps\Conventions\ReferenceConvention.cs" />
     <Compile Include="NHibernateMaps\Conventions\TableNameConvention.cs" />
     <Compile Include="NHibernateMaps\AutoPersistenceModelGenerator.cs" />
+    <Compile Include="NHibernateMaps\FluentMappings\DimensionMap.cs" />
+    <Compile Include="NHibernateMaps\FluentMappings\FactMap.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Framework.Core\Framework.Core.csproj">

@@ -3,25 +3,25 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace QMP.Domain.Core
 {
-    public class DimensionAssociation : Entity, IAssociation<Dimension>
+    public interface IAssociation<T>  where T : Entity
     {
-
-        public virtual Dimension Source
+        T Source
         {
             get;
             set;
         }
 
-        public virtual Dimension Target
+        T Target
         {
             get;
             set;
         }
 
-        public virtual string Name
+        string Name
         {
             get;
             set;

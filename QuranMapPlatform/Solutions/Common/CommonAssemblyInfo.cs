@@ -1,9 +1,9 @@
-using System.Reflection;
+﻿using System.Reflection;
 using System.Runtime.InteropServices;
 
-[assembly: AssemblyCompany("S#arp Architecture Development Team")]
-[assembly: AssemblyProduct("S#arp Architecture Template")]
-[assembly: AssemblyCopyright("Copyright � S#arp Architecture Development Team 2010")]
+[assembly: AssemblyCompany("Quran Map")]
+[assembly: AssemblyProduct("Quran Map")]
+[assembly: AssemblyCopyright("Copyright � Quran Map Development Team 2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

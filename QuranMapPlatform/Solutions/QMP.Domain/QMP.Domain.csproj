@@ -98,6 +98,8 @@
     <Compile Include="..\Common\CommonAssemblyInfo.cs">
       <Link>Properties\CommonAssemblyInfo.cs</Link>
     </Compile>
+    <Compile Include="Core\IHasAssociation.cs" />
+    <Compile Include="Core\IAssociation.cs" />
     <Compile Include="Core\Dimension.cs" />
     <Compile Include="Core\DimensionAssociation.cs" />
     <Compile Include="Core\Fact.cs" />
@@ -127,6 +129,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="Core\Core.cd" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

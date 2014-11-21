@@ -11,6 +11,8 @@ namespace QMP.Infrastructure.NHibernateMaps.Conventions
         public void Apply(FluentNHibernate.Conventions.Instances.IIdentityInstance instance)
         {
             instance.Column(instance.EntityType.Name + "Id");
+            instance.UnsavedValue("0");
+            instance.GeneratedBy.HiLo("1000");
         }
     }
 }

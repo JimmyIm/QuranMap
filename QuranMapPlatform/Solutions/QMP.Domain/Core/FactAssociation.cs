@@ -6,8 +6,13 @@ using System.Text;
 
 namespace QMP.Domain.Core
 {
-    public class FactAssociation : Entity
+    public class FactAssociation :Entity, IAssociation<Fact>
     {
+        public virtual DimensionAssociation RelationType
+        {
+            get;
+            set;
+        }
         public virtual Fact Source
         {
             get;
@@ -21,12 +26,6 @@ namespace QMP.Domain.Core
         }
 
         public virtual string Name
-        {
-            get;
-            set;
-        }
-
-        public virtual DimensionAssociation DimensionAssociation
         {
             get;
             set;

@@ -9,5 +9,10 @@ namespace QMP.Domain.Core
 {
     public class ValueType : Entity
     {
+        public virtual string Name
+        {
+            get;
+            set;
+        }
     }
 }

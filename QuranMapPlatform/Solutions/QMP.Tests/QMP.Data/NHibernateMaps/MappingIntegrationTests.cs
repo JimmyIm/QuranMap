@@ -80,5 +80,21 @@ namespace QMP.Tests.QMP.Data.NHibernateMaps
         {
             new SchemaExport(this.configuration).Execute(false, true, false);
         }
+        /// <summary>
+        /// Creates/Updates database schema, this runs on database configured in 
+        /// Mvc project and is marked as Explicit because it changes the database.
+        /// </summary>
+        [Test]
+        [Explicit]
+        public void CanDropDatabase()
+        {
+            
+            new SchemaExport(this.configuration).Drop(true, true);
+            new SchemaExport(this.configuration).Drop(true, true);
+            new SchemaExport(this.configuration).Drop(true, true);
+            new SchemaExport(this.configuration).Drop(true, true);
+            new SchemaExport(this.configuration).Drop(true, true);
+          
+        }
     }
 }
