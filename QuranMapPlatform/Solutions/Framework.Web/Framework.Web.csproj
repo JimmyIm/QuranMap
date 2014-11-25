@@ -99,7 +99,7 @@
     <Compile Include="Web.Mvc\ModelBinder\EntityCollectionValueBinder.cs" />
     <Compile Include="Web.Mvc\ModelBinder\EntityValueBinder.cs" />
     <Compile Include="Web.Mvc\ModelBinder\GenericRepositoryFactory.cs" />
-    <Compile Include="Web.Mvc\ModelBinder\SharpModelBinder.cs" />
+    <Compile Include="Web.Mvc\ModelBinder\FrameworkModelBinder.cs" />
     <Compile Include="Web.Mvc\ModelBinder\ValueBinderHelper.cs" />
   </ItemGroup>
   <ItemGroup>

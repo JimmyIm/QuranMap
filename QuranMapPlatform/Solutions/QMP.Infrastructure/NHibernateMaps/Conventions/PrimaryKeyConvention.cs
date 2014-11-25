@@ -12,7 +12,7 @@ namespace QMP.Infrastructure.NHibernateMaps.Conventions
         {
             instance.Column(instance.EntityType.Name + "Id");
             instance.UnsavedValue("0");
-            instance.GeneratedBy.HiLo("1000");
+            instance.GeneratedBy.HiLo("1");
         }
     }
 }

@@ -109,6 +109,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QMP.Data\BaseDataGenratorTests.cs" />
+    <Compile Include="QMP.Data\DataGenratorTests.cs" />
     <Compile Include="ServiceLocatorInitializer.cs" />
     <Compile Include="QMP.Data\NHibernateMaps\MappingIntegrationTests.cs" />
   </ItemGroup>

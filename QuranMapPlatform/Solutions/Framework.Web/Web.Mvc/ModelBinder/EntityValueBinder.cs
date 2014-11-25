@@ -6,7 +6,7 @@ namespace Framework.Web.Mvc.ModelBinder
 
     using Framework.Core.Domain.DomainModel;
 
-    internal class EntityValueBinder : SharpModelBinder
+    internal class EntityValueBinder : FrameworkModelBinder
     {
         /// <summary>
         ///     Binds the model value to an entity by using the specified controller context and binding context.

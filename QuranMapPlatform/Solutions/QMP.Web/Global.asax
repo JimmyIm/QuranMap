@@ -1,1 +1,1 @@
-<%@ Application Codebehind="Global.asax.cs" Inherits="QMP.Web.Mvc.MvcApplication" Language="C#" %>
+<%@ Application Codebehind="Global.asax.cs" Inherits="QMP.Web.MvcApplication" Language="C#" %>

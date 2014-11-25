@@ -1,4 +1,4 @@
-namespace QMP.Web.Mvc.CastleWindsor
+namespace QMP.Web.CastleWindsor
 {
     using Castle.MicroKernel.Registration;
     using Castle.MicroKernel.SubSystems.Configuration;

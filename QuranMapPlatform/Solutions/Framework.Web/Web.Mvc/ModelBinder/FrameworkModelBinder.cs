@@ -10,7 +10,7 @@ namespace Framework.Web.Mvc.ModelBinder
 
     using Framework.Core.Domain.DomainModel;
 
-    public class SharpModelBinder : DefaultModelBinder
+    public class FrameworkModelBinder : DefaultModelBinder
     {
         private const string IdPropertyName = "Id";
 

@@ -6,7 +6,7 @@ using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
-namespace QMP.Web.Mvc
+namespace QMP.Web
 {   
     /// <summary>
     /// Represents the MVC Application
@@ -43,7 +43,7 @@ namespace QMP.Web.Mvc
             //ViewEngines.Engines.Clear();
             //ViewEngines.Engines.Add(new RazorViewEngine());
 
-            ModelBinders.Binders.DefaultBinder = new SharpModelBinder();
+            ModelBinders.Binders.DefaultBinder = new FrameworkModelBinder();
             ModelValidatorProviders.Providers.Add(new ClientDataTypeModelValidatorProvider());
             ServiceLocatorConfig.Initialize();           
 

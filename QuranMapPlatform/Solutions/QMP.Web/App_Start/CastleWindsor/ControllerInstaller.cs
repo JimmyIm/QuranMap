@@ -1,4 +1,4 @@
-namespace QMP.Web.Mvc.CastleWindsor
+namespace QMP.Web.CastleWindsor
 {
     using System.Web.Mvc;
 

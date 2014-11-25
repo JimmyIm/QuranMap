@@ -7,9 +7,14 @@ using System.Threading.Tasks;
 
 namespace QMP.Domain.Core
 {
-    public class ValueType : Entity
+    public class FactValueType : Entity
     {
         public virtual string Name
+        {
+            get;
+            set;
+        }
+        public virtual string Constant
         {
             get;
             set;

@@ -17,7 +17,7 @@ namespace Framework.Web.Mvc.CommonValidator
     /// </summary>
     [Obsolete(
         "This binder is very limited in nature.  While it remains for backward compatibility, it " +
-        "is highly recommended to instead use Framework.Web.ModelBinder.SharpModelBinder which is much " +
+        "is highly recommended to instead use Framework.Web.ModelBinder.FrameworkModelBinder which is much " +
         "more seamlessly integrated with the Framework libraries and repository support.")]
     public class ValidatableModelBinder : DefaultModelBinder
     {

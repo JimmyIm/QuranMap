@@ -48,7 +48,7 @@ namespace Tests.SharpArch.Web.Mvc.ModelBinder
                    ModelName = "Employee", ValueProvider = valueProvider, ModelMetadata = modelMetadata 
                 };
 
-            DefaultModelBinder target = new SharpModelBinder();
+            DefaultModelBinder target = new FrameworkModelBinder();
 
             var controllerContext = new ControllerContext();
 
@@ -85,7 +85,7 @@ namespace Tests.SharpArch.Web.Mvc.ModelBinder
                    ModelName = "Employee", ValueProvider = valueProvider, ModelMetadata = modelMetadata 
                 };
 
-            DefaultModelBinder target = new SharpModelBinder();
+            DefaultModelBinder target = new FrameworkModelBinder();
 
             var controllerContext = new ControllerContext();
 
@@ -123,7 +123,7 @@ namespace Tests.SharpArch.Web.Mvc.ModelBinder
                    ModelName = "Employee", ValueProvider = valueProvider, ModelMetadata = modelMetadata 
                 };
 
-            DefaultModelBinder target = new SharpModelBinder();
+            DefaultModelBinder target = new FrameworkModelBinder();
 
             var controllerContext = new ControllerContext();
 
@@ -157,7 +157,7 @@ namespace Tests.SharpArch.Web.Mvc.ModelBinder
                    ModelName = "Employee", ValueProvider = valueProvider, ModelMetadata = modelMetadata 
                 };
 
-            DefaultModelBinder target = new SharpModelBinder();
+            DefaultModelBinder target = new FrameworkModelBinder();
 
             var controllerContext = new ControllerContext();
 
@@ -189,7 +189,7 @@ namespace Tests.SharpArch.Web.Mvc.ModelBinder
                    ModelName = "Territory", ValueProvider = valueProvider, ModelMetadata = modelMetadata 
                 };
 
-            DefaultModelBinder target = new SharpModelBinder();
+            DefaultModelBinder target = new FrameworkModelBinder();
 
             var controllerContext = new ControllerContext();
 
@@ -220,7 +220,7 @@ namespace Tests.SharpArch.Web.Mvc.ModelBinder
                    ModelName = "Territory", ValueProvider = valueProvider, ModelMetadata = modelMetadata 
                 };
 
-            DefaultModelBinder target = new SharpModelBinder();
+            DefaultModelBinder target = new FrameworkModelBinder();
 
             var controllerContext = new ControllerContext();
 
