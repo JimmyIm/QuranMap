@@ -17,11 +17,11 @@ namespace QMP.Web.Controllers
         private readonly INHibernateRepository<FactValueType> valueTypeRepository;
         public ActionResult Index()
         {
-            FactValueType val1 = new FactValueType();
-            val1.Constant = "Number";
-            val1.Name = "Number";
-            valueTypeRepository.Save(val1);
-            valueTypeRepository.DbContext.CommitChanges();
+            //FactValueType val1 = new FactValueType();
+            //val1.Constant = "Number";
+            //val1.Name = "Number";
+            //valueTypeRepository.Save(val1);
+            //valueTypeRepository.DbContext.CommitChanges();
             return View();
         }
     }

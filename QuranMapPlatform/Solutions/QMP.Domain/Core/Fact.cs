@@ -11,7 +11,7 @@ using System.Linq;
 using System.Text;
 namespace QMP.Domain.Core
 {
-    public class Fact : Entity//, IHasAssociation<FactAssociation>
+    public class Fact : Entity, IHasAssociation<FactAssociation>
     {
 
         public virtual Dimension Dimension

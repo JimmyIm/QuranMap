@@ -6,7 +6,7 @@ using System.Text;
 
 namespace QMP.Domain.Core
 {
-    public class FactAssociation :Entity//, IAssociation<Fact>
+    public class FactAssociation :Entity, IAssociation<Fact>
     {
         public virtual DimensionAssociation RelationType
         {

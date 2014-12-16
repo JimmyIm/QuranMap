@@ -281,6 +281,9 @@
     <Content Include="App_Data\QMP_log.ldf">
       <DependentUpon>QMP.mdf</DependentUpon>
     </Content>
+    <Content Include="App_Data\quran-uthmani.xml" />
+    <Content Include="App_Data\SQLQuran.sql" />
+    <Content Include="App_Data\toolsQuery.sql" />
     <Content Include="Areas\HelpPage\HelpPage.css" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
